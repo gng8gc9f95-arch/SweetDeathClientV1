@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "chestesp",
+  "version": "${version}",
+  "name": "Chest ESP",
+  "description": "Client mit Chest ESP, dünnen Tracern, Sus Chunks, Tunnel ESP, Spawner-Alarm, Freecam und eigenem Menü.",
+  "authors": [
+    "you"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.chestesp.ChestEspClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
